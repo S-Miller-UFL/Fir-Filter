@@ -1,0 +1,126 @@
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 4 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 4 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 3 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 3 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 5 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 5 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 1 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd was successful.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd was successful.
+# Compile of rom32.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.rom_tb
+# vsim -gui work.rom_tb 
+# Start time: 12:29:37 on Oct 25,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_tb(tb)
+# Loading work.rom32(arch)
+# Loading altera_mf.altera_mf_components
+# Loading work.rom(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+run
+# ** Warning: (vsim-7) Failed to open VHDL file "FIR_INPUT.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /rom_tb/UUT/ROM1/altsyncram_component
+# ** Fatal: (vsim-7) Failed to open VHDL file "FIR_INPUT.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Process: /rom_tb/UUT/ROM1/altsyncram_component/MEMORY File: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd
+# Fatal error in Process MEMORY at C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd line 40292
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 40292 Subprogram read_my_memory
+# called from  C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 41911 Process MEMORY
+# 
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd failed with 8 errors.
+# 2 compiles, 1 failed with 8 errors.
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.rom_tb
+# End time: 12:44:35 on Oct 25,2023, Elapsed time: 0:14:58
+# Errors: 1, Warnings: 24
+# vsim -gui work.rom_tb 
+# Start time: 12:44:35 on Oct 25,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_tb(tb)
+# Loading altera_mf.altera_mf_components
+# Loading work.rom(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+run
+# ** Warning: (vsim-7) Failed to open VHDL file "FIR_INPUT.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /rom_tb/UUT/altsyncram_component
+# ** Fatal: (vsim-7) Failed to open VHDL file "FIR_INPUT.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Process: /rom_tb/UUT/altsyncram_component/MEMORY File: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd
+# Fatal error in Process MEMORY at C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd line 40292
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 40292 Subprogram read_my_memory
+# called from  C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 41911 Process MEMORY
+# 
+# Compile of ROM.vhd was successful.
+# Compile of top_level_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# End time: 12:52:51 on Oct 25,2023, Elapsed time: 0:08:16
+# Errors: 1, Warnings: 4

@@ -1,0 +1,3 @@
+AddFP32_sim/dspba_library_package.vhd
+AddFP32_sim/dspba_library.vhd
+AddFP32_sim/AddFP32.vhd

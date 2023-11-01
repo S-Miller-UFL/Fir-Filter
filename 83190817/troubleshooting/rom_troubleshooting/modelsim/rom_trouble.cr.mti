@@ -1,0 +1,21 @@
+C:/Users/steve/source/eel4712/lab6/83190817/troubleshooting/top_level_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\steve\source\eel4712\lab6\83190817\troubleshooting\top_level_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity rom_tb
+-- Compiling architecture TB of rom_tb
+
+} {} {}} C:/Users/steve/source/eel4712/lab6/83190817/troubleshooting/ROM.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\steve\source\eel4712\lab6\83190817\troubleshooting\ROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ROM
+-- Compiling architecture SYN of rom
+
+} {} {}}

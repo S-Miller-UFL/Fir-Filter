@@ -1,0 +1,55 @@
+--steven miller
+--Section number: 11710
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity top_level is
+
+generic(width : positive := 32);
+
+port
+(
+	--inputs : in std_logic_vector(width-1 downto 0);
+	ROMaddr: in std_logic_vector(9 downto 0);
+	output: out std_logic_vector(width-1 downto 0);
+	reset: in std_logic;
+	rden: in std_logic;
+	clk: in std_logic
+	
+);
+end top_level;
+
+architecture arch of top_level is
+
+component Datapath is
+generic(width:positive :=32);
+port
+(
+	input: in std_logic_vector(width-1 downto 0);
+	output: out std_logic_vector(width-1 downto 0);
+	reset: in std_logic;
+	clk: in std_logic
+);
+end component;
+
+component ROM is
+port
+(
+		address	: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
+		clock		: IN STD_LOGIC  := '1';
+		data		: IN STD_LOGIC_VECTOR (31 DOWNTO 0):=(others=>'0');
+		rden		: IN STD_LOGIC  := '1';
+		wren		: IN STD_LOGIC:='0' ;
+		q		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0)
+);
+end component;
+signal romout : std_logic_vector(width-1 downto 0);
+
+begin
+
+rom1: ROM port map(address=>ROMaddr, clock=>clk, rden=>rden,q=>romout);
+
+FIR: Datapath generic map (width=>width) port map(input =>romout, output =>output, reset=>reset,clk=>clk);
+
+end arch;

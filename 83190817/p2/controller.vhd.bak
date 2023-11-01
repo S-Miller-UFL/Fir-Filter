@@ -1,0 +1,106 @@
+--steven miller
+--Section number: 11710
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity controller is
+port
+(
+	start: in std_logic;
+	resetn : in std_logic; --active-low
+	clk : in std_logic;
+	
+	rdy: out std_logic;
+	romaddressout: out std_logic_vector(9 downto 0);
+	ramaddressout: out std_logic_vector(9 downto 0);
+	datapathenable: out std_logic;
+	
+);
+
+architecture arch of controller is
+type asmstatetype is (start,check_latency,latencyhold, load, done_state,output, buffer_state);
+signal state, nextstate: asmstatetype;
+signal romaddr : unsigned(9 downto 0) := "000000000";
+signal ramaddr : unsigned(9 downto 0) := "000000000";
+begin
+--moore machine
+process(clk,resetn)
+
+begin
+if(resetn = '0') then
+
+	state <= start;
+	
+elsif(clk'event and clk = '1') then
+
+	variable count : unsigned := 0;
+	variable one : unsigned := 1;
+
+	case state is
+
+		when start =>
+				state <= latencyhold;
+				
+		when check_latency =>
+				if(count = 32) then
+				state <= load;
+				else
+				state <= latencyhold;
+				end if;
+				
+		when latencyhold =>
+				if(count = 32) then
+				state <= load;
+				else
+				state <= latencyhold;
+				count := count + 1;
+				end if
+				
+		when load =>
+				romaddr <= std_logic_vector(romaddr + one)
+				ramaddr <= std_logic_vector(ramaddr + one);
+				state <= done_state;
+				
+		when done_state =>
+		
+				if(start = '1') then
+					state <= start;
+				else
+					state <= done_state;
+		
+	end case;
+	
+end if;
+	
+	
+end process;
+
+process(state)
+
+begin
+
+	case state is
+
+		when start =>
+	
+			--inferred latch
+		when check_latency =>
+		
+			--inferred latch
+		when latency_hold =>
+	
+			romaddressout <= romaddr;
+			ramaddressout <= romaddr;
+		
+		when load =>
+			romaddressout <= romaddr;
+			ramaddressout <= romaddr;
+		
+		when done_state =>
+			rdy <= '1';
+	end case;
+	
+end process;
+
+end arch;

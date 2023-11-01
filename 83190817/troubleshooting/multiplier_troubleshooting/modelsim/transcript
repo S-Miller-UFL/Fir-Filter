@@ -1,0 +1,125 @@
+vsim -gui work.multfp32_tb
+# vsim -gui work.multfp32_tb 
+# Start time: 15:18:18 on Oct 31,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.multfp32_tb(tb)
+# Loading work.multfp32(structure)
+# Loading work.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading fiftyfivenm.fiftyfivenm_mac_mult(vital_fiftyfivenm_mac_mult)
+# Loading fiftyfivenm.fiftyfivenm_mac_data_reg(vital_fiftyfivenm_mac_data_reg)
+# Loading fiftyfivenm.fiftyfivenm_mac_sign_reg(fiftyfivenm_mac_sign_reg)
+# Loading fiftyfivenm.fiftyfivenm_mac_mult_internal(vital_fiftyfivenm_mac_mult_internal)
+# Loading fiftyfivenm.fiftyfivenm_mac_out(vital_fiftyfivenm_mac_out)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# ** Warning: Design size of 90130 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end  sim:/multfp32_tb/clk
+add wave -position end  sim:/multfp32_tb/rst
+add wave -position end  sim:/multfp32_tb/x
+add wave -position end  sim:/multfp32_tb/y
+add wave -position end  sim:/multfp32_tb/output
+add wave -position end  sim:/multfp32_tb/TIMEOUT
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Note: DONE!!!!!!
+#    Time: 780 ns  Iteration: 0  Instance: /multfp32_tb
+# Compile of multiplier_troubleshooting.vho was successful.
+# Compile of MultFP32_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.multfp32_tb(tb)
+# Loading work.multfp32(structure)
+# Loading work.hard_block(structure)
+# ** Warning: Design size of 90128 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 45457 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im8_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im11_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im5_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /multfp32_tb/UUT/\multfp32_inst|prodXY_uid105_prod_uid47_fpMulTest_im0_component|auto_generated|mac_mult1\/mac_multiply
+# ** Note: DONE!!!!!!
+#    Time: 780 ns  Iteration: 0  Instance: /multfp32_tb
+# Break key hit
+# Closing project C:/Users/steve/source/eel4712/lab6/83190817/troubleshooting/multiplier_troubleshooting/modelsim/multipler_troubleshooting.mpf

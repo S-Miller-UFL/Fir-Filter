@@ -1,0 +1,125 @@
+--steven miller
+--Section number: 11710
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity Datapath is
+
+generic(width : positive := 32);
+
+port
+(
+	input: in std_logic_vector(width-1 downto 0);
+	output: out std_logic_vector(width-1 downto 0);
+	reset: in std_logic;
+	clk: in std_logic
+	
+);
+end Datapath;
+
+architecture arch of Datapath is
+
+component genericregister is
+generic(width: positive := width);
+port
+(
+	input : in std_logic_vector(width-1 downto 0);
+	clk: in std_logic;
+	enable: in std_logic := '1';
+	reset: in std_logic;
+	output: out std_logic_vector(width-1 downto 0)
+
+);
+end component;
+
+component MultFP32 is
+port
+(
+		clk    : in  std_logic;
+		areset : in  std_logic;
+		a      : in  std_logic_vector(31 downto 0) := (others => '0');
+		b      : in  std_logic_vector(31 downto 0) := (others => '0');
+		q      : out std_logic_vector(31 downto 0)  
+);
+end component;
+
+component AddFP32 is
+port
+(
+		clk    : in  std_logic;
+		areset : in  std_logic;
+		a      : in  std_logic_vector(31 downto 0) := (others => '0');
+		b      : in  std_logic_vector(31 downto 0) := (others => '0');
+		q      : out std_logic_vector(31 downto 0)  
+);
+end component;
+
+constant coeff1 : std_logic_vector(31 downto 0) := "00111101100011000110011101001101";
+constant coeff2 : std_logic_vector(31 downto 0) := "00111101111001001111101001110010";
+constant coeff3 : std_logic_vector(31 downto 0) := "00111110000110001001110101011000";
+constant coeff4 : std_logic_vector(31 downto 0) := "00111110001011101010110011011100";
+constant coeff5 : std_logic_vector(31 downto 0) := "00111110001011101010110011011100";
+constant coeff6 : std_logic_vector(31 downto 0) := "00111110000110001001110101011000";
+constant coeff7 : std_logic_vector(31 downto 0) := "00111101111001001111101001110010";
+constant coeff8 : std_logic_vector(31 downto 0) := "00111101100011000110011101001101";
+
+signal q1,q2,q3,q4,q5,q6,q7,q8: std_logic_vector(width-1 downto 0);
+signal dff1out,
+		 dff2out,
+		 dff3out,
+		 dff4out,
+		 dff5out,
+		 dff6out,
+		 dff7out,
+		 dff8out: std_logic_vector(width-1 downto 0);
+signal mult1out,
+		 mult2out,
+		 mult3out,
+		 mult4out,
+		 mult5out,
+		 mult6out,
+		 mult7out,
+		 mult8out: std_logic_vector(width-1 downto 0);
+signal add1out,
+		 add2out,
+		 add3out,
+		 add4out,
+		 add5out,
+		 add6out,
+		 add7out: std_logic_vector(width-1 downto 0);
+		 
+signal multreset : std_logic;
+begin
+
+dff1: genericregister generic map (width=>width) port map(	input=>input, 	 clk=>clk,	reset=>reset,	output=>dff1out);
+dff2: genericregister generic map (width=>width) port map(	input=>dff1out, clk=>clk,	reset=>reset,	output=>dff2out);
+dff3: genericregister generic map (width=>width) port map(	input=>dff2out, clk=>clk,	reset=>reset,	output=>dff3out);
+dff4: genericregister generic map (width=>width) port map(	input=>dff3out, clk=>clk,	reset=>reset,	output=>dff4out);
+dff5: genericregister generic map (width=>width) port map(	input=>dff4out, clk=>clk,	reset=>reset,	output=>dff5out);
+dff6: genericregister generic map (width=>width) port map(	input=>dff5out, clk=>clk,	reset=>reset,	output=>dff6out);
+dff7: genericregister generic map (width=>width) port map(	input=>dff6out, clk=>clk,	reset=>reset,	output=>dff7out);
+dff8: genericregister generic map (width=>width) port map(	input=>dff7out, clk=>clk,	reset=>reset,	output=>dff8out);
+
+mult1: MultFP32 port map (clk => clk, areset => reset, a =>coeff1, b=>dff1out,q=>mult1out);
+mult2: MultFP32 port map (clk => clk, areset => reset, a =>coeff2, b=>dff2out,q=>mult2out);
+mult3: MultFP32 port map (clk => clk, areset => reset, a =>coeff3, b=>dff3out,q=>mult3out);
+mult4: MultFP32 port map (clk => clk, areset => reset, a =>coeff4, b=>dff4out,q=>mult4out);
+mult5: MultFP32 port map (clk => clk, areset => reset, a =>coeff5, b=>dff5out,q=>mult5out);
+mult6: MultFP32 port map (clk => clk, areset => reset, a =>coeff6, b=>dff6out,q=>mult6out);
+mult7: MultFP32 port map (clk => clk, areset => reset, a =>coeff7, b=>dff7out,q=>mult7out);
+mult8: MultFP32 port map (clk => clk, areset => reset, a =>coeff8, b=>dff8out,q=>mult8out);
+
+
+add1: AddFP32 port map (clk => clk, areset => reset, a =>mult1out, b=>mult2out,q=>add1out);
+add2: AddFP32 port map (clk => clk, areset => reset, a =>mult3out, b=>mult4out,q=>add2out);
+add3: AddFP32 port map (clk => clk, areset => reset, a =>mult5out, b=>mult6out,q=>add3out);
+add4: AddFP32 port map (clk => clk, areset => reset, a =>mult7out, b=>mult8out,q=>add4out);
+add5: AddFP32 port map (clk => clk, areset => reset, a =>add1out,  b=>add2out,q=>add5out);
+add6: AddFP32 port map (clk => clk, areset => reset, a =>add3out,  b=>add4out,q=>add6out);
+add7: AddFP32 port map (clk => clk, areset => reset, a =>add5out,  b=>add6out,q=>add7out);
+output<=add7out;
+
+
+
+end arch;

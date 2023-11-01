@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Nov 01 13:24:43 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : lab6_p2
+Top-level Entity Name : fir_filter
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 9,563 / 49,760 ( 19 % )
+    Total combinational functions : 7,011 / 49,760 ( 14 % )
+    Dedicated logic registers : 7,053 / 49,760 ( 14 % )
+Total registers : 7053
+Total pins : 4 / 360 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 65,536 / 1,677,312 ( 4 % )
+Embedded Multiplier 9-bit elements : 56 / 288 ( 19 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

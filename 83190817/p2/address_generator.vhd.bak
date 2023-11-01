@@ -1,0 +1,37 @@
+--steven miller
+--Section number: 11710
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity addressgenerator is
+port
+(
+	ingenerate : in std_logic;
+	
+	decodedaddress : out std_logic_vector(31 downto 0)
+	
+);
+
+end addressgenerator;
+
+architecture arch of addressgenerator is
+
+begin
+
+process(ingenerate)
+variable address : unsigned;
+begin
+
+if(ingenerate'event and ingenerate = '1') then
+
+	if(address = 1023) then
+		address := 0;
+	else
+		address := address + 1;
+	
+	end if
+end if;
+
+decodedaddress <= std_logic_vector(address);
+end arch;

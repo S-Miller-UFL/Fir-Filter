@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="MultFP32_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="MultFP32_sim/dspba_library.vhd" type="VHDL" />
+ <file path="MultFP32_sim/MultFP32.vhd" type="VHDL" />
+ <topLevel name="MultFP32" />
+ <deviceFamily name="max10" />
+</simPackage>

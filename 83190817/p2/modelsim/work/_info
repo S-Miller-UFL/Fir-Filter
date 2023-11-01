@@ -1,0 +1,792 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/steve/source/eel4712/lab6/83190817/p1/modelsim
+Eaddfp32
+Z0 w1698674513
+Z1 DPx3 lpm 14 lpm_components 0 22 ZZ?0`GZD@?:kcFM0gmf[@1
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+Z3 DPx4 work 21 dspba_library_package 0 22 g5ge0<PbUA3NecLg[8;Cj3
+Z4 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 523
+Z8 dC:/Users/steve/source/eel4712/lab6/83190817/p2/modelsim
+Z9 8C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32_sim/AddFP32.vhd
+Z10 FC:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32_sim/AddFP32.vhd
+l0
+Z11 L34 1
+VBek;6C[n:]LW^`IOaUf<n1
+!s100 m1ZoSzE7W9Cj432VgoA?o2
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1698861358
+!i10b 1
+Z14 !s108 1698861358.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32_sim/AddFP32.vhd|
+Z16 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32_sim/AddFP32.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 addfp32 0 22 Bek;6C[n:]LW^`IOaUf<n1
+!i122 523
+l397
+L44 1659
+VkH94AdSbJ;5BX8^a2A1>J3
+!s100 4m;AS@BB_Ic3FmPejZbIH0
+R12
+32
+Z19 !s110 1698861359
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Artl
+R5
+R6
+R7
+DEx4 work 7 addfp32 0 22 7njXOS:;5fbd[XKm<Vn0P0
+!i122 360
+l32
+Z20 L21 23
+VNJmXTDSVd0SW8kf4ne@0C3
+!s100 PZ7K2fH@T:F:nFhnfRzz;2
+R12
+32
+!s110 1698854881
+!i10b 1
+!s108 1698854881.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32.vhd|
+!s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32.vhd|
+!i113 1
+R17
+R18
+FC:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32.vhd
+w1698674518
+8C:/Users/steve/source/eel4712/lab6/83190817/p2/AddFP32.vhd
+Eaddress_generator
+Z21 w1698854344
+R5
+R6
+R7
+!i122 373
+R8
+Z22 8C:/Users/steve/source/eel4712/lab6/83190817/p2/address_generator.vhd
+Z23 FC:/Users/steve/source/eel4712/lab6/83190817/p2/address_generator.vhd
+l0
+L7 1
+VKUim:K?ok=CJHbNgm;_:^1
+!s100 OZzR`Qz1]IJVHMIWNMdh<3
+R12
+32
+Z24 !s110 1698855109
+!i10b 1
+Z25 !s108 1698855109.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/address_generator.vhd|
+Z27 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/address_generator.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+DEx4 work 17 address_generator 0 22 KUim:K?ok=CJHbNgm;_:^1
+!i122 373
+l21
+L19 38
+V<Z^HXPA@]i<RP_?J05Id@1
+!s100 YCKkCdnfNhG<W>PjCGS8^2
+R12
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R17
+R18
+Eboard_design
+Z28 w1698854104
+R5
+R6
+R7
+!i122 531
+R8
+Z29 8C:/Users/steve/source/eel4712/lab6/83190817/p2/board_design.vhd
+Z30 FC:/Users/steve/source/eel4712/lab6/83190817/p2/board_design.vhd
+l0
+L7 1
+VK=0T6P;37l@3>;flUj6L>2
+!s100 71EH;CbZaI8TJ^5CM?zML3
+R12
+32
+Z31 !s110 1698861360
+!i10b 1
+Z32 !s108 1698861360.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/board_design.vhd|
+Z34 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/board_design.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+Z35 DEx4 work 12 board_design 0 22 K=0T6P;37l@3>;flUj6L>2
+!i122 531
+l32
+L17 23
+VSIf>064L4QN<5IUSjlGEL1
+!s100 K]HaOhLQFB@[=]jejSmd90
+R12
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R17
+R18
+Econtroller
+Z36 w1698861355
+R5
+R6
+R7
+!i122 529
+R8
+Z37 8C:/Users/steve/source/eel4712/lab6/83190817/p2/controller.vhd
+Z38 FC:/Users/steve/source/eel4712/lab6/83190817/p2/controller.vhd
+l0
+L7 1
+V1TI5<<k2z<4=@@R=`[Lf`2
+!s100 ThjzUK162OPoKf]a?VdSD2
+R12
+32
+R31
+!i10b 1
+R32
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/controller.vhd|
+Z40 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/controller.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+DEx4 work 10 controller 0 22 1TI5<<k2z<4=@@R=`[Lf`2
+!i122 529
+l30
+L24 116
+V@fe2YmdS;2c6;Ek^ki4o^0
+!s100 nTnFQ283NjkSY0l]HXE1>1
+R12
+32
+R31
+!i10b 1
+R32
+R39
+R40
+!i113 1
+R17
+R18
+Edatapath
+Z41 w1698847977
+R5
+R6
+R7
+!i122 488
+R8
+Z42 8C:/Users/steve/source/eel4712/lab6/83190817/p2/Datapath.vhd
+Z43 FC:/Users/steve/source/eel4712/lab6/83190817/p2/Datapath.vhd
+l0
+L7 1
+ViZO[MVIfH`kE=DNzV8e@K0
+!s100 fFmTW[^kN@RnfeL6U]F2I3
+R12
+32
+Z44 !s110 1698860759
+!i10b 1
+Z45 !s108 1698860759.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/Datapath.vhd|
+Z47 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/Datapath.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+DEx4 work 8 datapath 0 22 iZO[MVIfH`kE=DNzV8e@K0
+!i122 488
+l93
+L21 105
+VI`mT@aiMh:06:aAMHKSFB0
+!s100 F=zFg>JPD<Ye<TUg8zb[g2
+R12
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R17
+R18
+Edspba_delay
+Z48 w1698674464
+R3
+R6
+R7
+!i122 526
+R8
+Z49 8C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library.vhd
+Z50 FC:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library.vhd
+l0
+L18 1
+VJZ>XXZi]3nAML><T1OJmD2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R12
+32
+R19
+!i10b 1
+Z51 !s108 1698861359.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library.vhd|
+Z53 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library.vhd|
+!i113 1
+R17
+R18
+Adelay
+R3
+R6
+R7
+DEx4 work 11 dspba_delay 0 22 JZ>XXZi]3nAML><T1OJmD2
+!i122 526
+l37
+L34 51
+VH[ibU<H]FT4<DCgHmIjFa0
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R12
+32
+R19
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R17
+R18
+Pdspba_library_package
+R6
+R7
+!i122 527
+R48
+R8
+8C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library_package.vhd
+FC:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library_package.vhd
+l0
+L17 1
+Vg5ge0<PbUA3NecLg[8;Cj3
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R12
+32
+R19
+!i10b 1
+R51
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library_package.vhd|
+!s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/dspba_library_package.vhd|
+!i113 1
+R17
+R18
+Edspba_pipe
+R48
+R5
+R6
+R7
+!i122 526
+R8
+R49
+R50
+l0
+L343 1
+VhX_ehDHUhEGT`<4CLHDEW1
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R12
+32
+R19
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R17
+R18
+Artl
+R5
+R6
+R7
+DEx4 work 10 dspba_pipe 0 22 hX_ehDHUhEGT`<4CLHDEW1
+!i122 526
+l362
+L356 21
+VF>oh8b`LjePmYI9jU_S=k2
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R12
+32
+R19
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R17
+R18
+Edspba_sync_reg
+R48
+R3
+R5
+R6
+R7
+!i122 526
+R8
+R49
+R50
+l0
+L93 1
+V[2:MQ1fH@k]9VCDY^FzcN0
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R12
+32
+R19
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R17
+R18
+Async_reg
+R3
+R5
+R6
+R7
+DEx4 work 14 dspba_sync_reg 0 22 [2:MQ1fH@k]9VCDY^FzcN0
+!i122 526
+l136
+L117 219
+VZKLBIVGKhdlX>MS;1P6Rc3
+!s100 3CF6gEiK7^`H_<3Ne[inV2
+R12
+32
+R19
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R17
+R18
+Efir
+Z54 w1698858254
+R5
+R6
+R7
+!i122 532
+R8
+Z55 8C:/Users/steve/source/eel4712/lab6/83190817/p2/fir.vhd
+Z56 FC:/Users/steve/source/eel4712/lab6/83190817/p2/fir.vhd
+l0
+L7 1
+V=:U2kR8A7Ji[=nR^Q0WUX0
+!s100 zhaRQM5jbALOmAI@mT4nP2
+R12
+32
+R31
+!i10b 1
+R32
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/fir.vhd|
+Z58 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/fir.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+Z59 DEx4 work 3 fir 0 22 =:U2kR8A7Ji[=nR^Q0WUX0
+!i122 532
+l36
+Z60 L22 19
+Z61 VW>H`YW0eX4ghBV<b7JX[M3
+Z62 !s100 QW0:Bk3b;R<[``8e_XHMn2
+R12
+32
+R31
+!i10b 1
+R32
+R57
+R58
+!i113 1
+R17
+R18
+Efir_filter
+Z63 w1698858355
+R5
+R6
+R7
+!i122 530
+R8
+Z64 8C:/Users/steve/source/eel4712/lab6/83190817/p2/fir_filter.vhd
+Z65 FC:/Users/steve/source/eel4712/lab6/83190817/p2/fir_filter.vhd
+l0
+L7 1
+VIjo;U15MT@[jXD?z?0Cfe3
+!s100 le9N8A6jUKaEOYmNdPzQ?2
+R12
+32
+R31
+!i10b 1
+R32
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/fir_filter.vhd|
+Z67 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/fir_filter.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+DEx4 work 10 fir_filter 0 22 Ijo;U15MT@[jXD?z?0Cfe3
+!i122 530
+l89
+L17 85
+V?cJh7d71UzZcc=Y2NL5mU2
+!s100 FK@5LC;aGi[=c4XE>Toln1
+R12
+32
+R31
+!i10b 1
+R32
+R66
+R67
+!i113 1
+R17
+R18
+Egenericregister
+Z68 w1698847915
+Z69 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z70 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R6
+R7
+!i122 378
+R8
+Z71 8C:/Users/steve/source/eel4712/lab6/83190817/p2/genericregister.vhd
+Z72 FC:/Users/steve/source/eel4712/lab6/83190817/p2/genericregister.vhd
+l0
+L7 1
+V5PX:hD=[o6bDA_Cjia[8b1
+!s100 @KLAkV;U]5WWzTJK@CfC[1
+R12
+32
+Z73 !s110 1698855110
+!i10b 1
+Z74 !s108 1698855110.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/genericregister.vhd|
+Z76 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/genericregister.vhd|
+!i113 1
+R17
+R18
+Aarch
+R69
+R70
+R6
+R7
+DEx4 work 15 genericregister 0 22 5PX:hD=[o6bDA_Cjia[8b1
+!i122 378
+l26
+L22 33
+V^XbhNI]?fIEANE;DQI^g>3
+!s100 ;8kc0MdzJlH84o_;JI@E<1
+R12
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 1
+R17
+R18
+Emultfp32
+R48
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 528
+R8
+Z77 8C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/MultFP32.vhd
+Z78 FC:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/MultFP32.vhd
+l0
+R11
+VKXbg@4i8fZD3ZKUd`echh0
+!s100 COgk]<L79`56eZXHknKAY1
+R12
+32
+R31
+!i10b 1
+R51
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/MultFP32.vhd|
+Z80 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32_sim/MultFP32.vhd|
+!i113 1
+R17
+R18
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 multfp32 0 22 KXbg@4i8fZD3ZKUd`echh0
+!i122 528
+l226
+L44 784
+Vc``?ToH9R:T2;2;[iiAE83
+!s100 EIl?dbm@_lI8IIBk]Z><m1
+R12
+32
+R31
+!i10b 1
+R51
+R79
+R80
+!i113 1
+R17
+R18
+Artl
+R5
+R6
+R7
+DEx4 work 8 multfp32 0 22 <RM2dz_P6_DeUSR=I7[@I3
+!i122 367
+l32
+R20
+VLSGP<_oaQ9<@ORNhcz;901
+!s100 K4gzeC^DaON9^02f=Ii2M3
+R12
+32
+!s110 1698854883
+!i10b 1
+!s108 1698854882.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32.vhd|
+!s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32.vhd|
+!i113 1
+R17
+R18
+FC:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32.vhd
+w1698674468
+8C:/Users/steve/source/eel4712/lab6/83190817/p2/MultFP32.vhd
+Eram
+Z81 w1698674711
+R2
+R6
+R7
+!i122 379
+R8
+Z82 8C:/Users/steve/source/eel4712/lab6/83190817/p2/RAM.vhd
+Z83 FC:/Users/steve/source/eel4712/lab6/83190817/p2/RAM.vhd
+l0
+Z84 L43 1
+VQGG>D`0A>ShlHbaMC7ZSj3
+!s100 VO3;]@e;VB2`IPV_Wl54h3
+R12
+32
+R73
+!i10b 1
+R74
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/RAM.vhd|
+Z86 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/RAM.vhd|
+!i113 1
+R17
+R18
+Asyn
+R2
+R6
+R7
+DEx4 work 3 ram 0 22 QGG>D`0A>ShlHbaMC7ZSj3
+!i122 379
+l59
+L55 35
+V_W8ioG?ckz;cAF<ZjOOc]0
+!s100 fLk<Jk87dDXKhh`Dj0@b:0
+R12
+32
+R73
+!i10b 1
+R74
+R85
+R86
+!i113 1
+R17
+R18
+Erom
+Z87 w1698674627
+R2
+R6
+R7
+!i122 380
+R8
+Z88 8C:/Users/steve/source/eel4712/lab6/83190817/p2/ROM.vhd
+Z89 FC:/Users/steve/source/eel4712/lab6/83190817/p2/ROM.vhd
+l0
+R84
+V>dIAS9XSQW_51C03S]_i20
+!s100 b=bfIgo8?ll`l?Z6?b]5[0
+R12
+32
+R73
+!i10b 1
+R74
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/ROM.vhd|
+Z91 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/ROM.vhd|
+!i113 1
+R17
+R18
+Asyn
+R2
+R6
+R7
+DEx4 work 3 rom 0 22 >dIAS9XSQW_51C03S]_i20
+!i122 380
+l58
+L54 34
+V[WP3:kNa9GO>aWi=lY:1T2
+!s100 HYYk9S]=jiXnS:bj^VAh71
+R12
+32
+R73
+!i10b 1
+R74
+R90
+R91
+!i113 1
+R17
+R18
+Etop_level
+Z92 w1698854190
+R5
+R6
+R7
+!i122 381
+R8
+Z93 8C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level.vhd
+Z94 FC:/Users/steve/source/eel4712/lab6/83190817/p2/top_level.vhd
+l0
+L7 1
+V;Z_dI<jDH>ZR^FJ;^mC;O2
+!s100 h`TXM=j9SSodL^;:=[[433
+R12
+32
+R73
+!i10b 1
+R74
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level.vhd|
+Z96 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level.vhd|
+!i113 1
+R17
+R18
+Aarch
+R5
+R6
+R7
+DEx4 work 9 top_level 0 22 ;Z_dI<jDH>ZR^FJ;^mC;O2
+!i122 381
+l47
+L23 31
+V2>Nb35BURP211;Q3TiCVc2
+!s100 f_7QNNX?Gfn[`Z1WhV<EL2
+R12
+32
+R73
+!i10b 1
+R74
+R95
+R96
+!i113 1
+R17
+R18
+Etop_level_tb
+Z97 w1698860185
+R5
+R70
+R69
+R6
+R7
+!i122 522
+R8
+Z98 8C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level_tb.vhd
+Z99 FC:/Users/steve/source/eel4712/lab6/83190817/p2/top_level_tb.vhd
+l0
+L10 1
+VKj<aUG53>T[@2ficl^IU53
+!s100 F02][VILBcR>HkNR14NBA2
+R12
+32
+R13
+!i10b 1
+R14
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level_tb.vhd|
+Z101 !s107 C:/Users/steve/source/eel4712/lab6/83190817/p2/top_level_tb.vhd|
+!i113 1
+R17
+R18
+Atb
+R35
+R5
+R70
+R69
+R6
+R7
+DEx4 work 12 top_level_tb 0 22 Kj<aUG53>T[@2ficl^IU53
+!i122 522
+l22
+L13 43
+V4M7V@bP^7:1EKZ:Phed^51
+!s100 W7S3D6U@Ce_h8k[??W]XQ2
+R12
+32
+R13
+!i10b 1
+R14
+R100
+R101
+!i113 1
+R17
+R18

@@ -1,0 +1,9 @@
+
+State Machine - |fir_filter|controller:controllercomponent|state
+Name state.done_state state.store_ram state.load_ram state.latency_hold state.load_rom state.start_state 
+state.start_state 0 0 0 0 0 0 
+state.load_rom 0 0 0 0 1 1 
+state.latency_hold 0 0 0 1 0 1 
+state.load_ram 0 0 1 0 0 1 
+state.store_ram 0 1 0 0 0 1 
+state.done_state 1 0 0 0 0 1 
